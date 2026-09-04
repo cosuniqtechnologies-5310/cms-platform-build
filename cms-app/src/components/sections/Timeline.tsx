@@ -13,7 +13,7 @@ export default function Timeline() {
           {[1,2,3,4].map(item => (
             <div key={item} className="bg-white p-8 rounded-lg shadow-sm border border-gray-200">
               <h3 className="text-lg font-medium text-gray-900 flex items-center">
-                <span className="flex-shrink-0 h-8 w-8 rounded-full bg-gray-200 text-gray-900 flex items-center justify-center font-bold mr-3">{item}</span>
+                <span className="shrink-0 h-8 w-8 rounded-full bg-gray-200 text-gray-900 flex items-center justify-center font-bold mr-3">{item}</span>
                 Item / Question {item}
               </h3>
               <p className="text-gray-500 ml-11 mt-2">

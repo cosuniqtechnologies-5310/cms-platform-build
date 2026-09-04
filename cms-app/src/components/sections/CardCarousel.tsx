@@ -14,7 +14,7 @@ export default function CardCarousel() {
       </div>
       <div className="flex space-x-6 overflow-x-auto pb-8 pl-4 sm:pl-6 lg:pl-8 max-w-7xl mx-auto snap-x">
         {[1,2,3,4,5].map(i => (
-          <div key={i} className="min-w-[300px] md:min-w-[400px] bg-white p-8 rounded-2xl shadow-sm border border-gray-200 snap-center">
+          <div key={i} className="min-w-300px md:min-w-400px bg-white p-8 rounded-2xl shadow-sm border border-gray-200 snap-center">
             <div className="h-40 bg-gray-100 rounded-lg mb-6 flex items-center justify-center text-gray-400">Card {i}</div>
             <h3 className="font-bold text-lg text-gray-900">Carousel Item</h3>
             <p className="text-gray-500 mt-2">Horizontal scrolling cards.</p>
