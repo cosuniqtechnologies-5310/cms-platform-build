@@ -41,12 +41,14 @@ export default function AboutIntro() {
         </p>
 
        {/* Button */}
+       <Link href="/contact">
             <Button
               variant="primary"
               size="md"
             >
               Learn More
             </Button>
+            </Link>
 
       </div>
 
