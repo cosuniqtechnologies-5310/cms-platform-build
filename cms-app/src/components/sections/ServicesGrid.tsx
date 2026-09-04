@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import Card from '../ui/Card';
 import { Code2, Palette, Cloud } from 'lucide-react';
+import ImageGallery from '../ui/ImageGallery';
 
 const services = [
   {
@@ -54,9 +55,7 @@ export default function ServicesGrid() {
 
                 {/* Image Placeholder */}
                 <div className="h-48 bg-gray-200 flex items-center justify-center">
-                  <span className="text-2xl font-semibold text-gray-400">
-                    Media Placeholder
-                  </span>
+                  <ImageGallery />
                 </div>
 
                 {/* Card Content */}
