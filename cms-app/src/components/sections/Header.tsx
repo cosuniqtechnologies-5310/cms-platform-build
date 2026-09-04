@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Button from "@/components/ui/Button";
+import Logo from "@/components/ui/Logo";
 
 export default function Header() {
   return (
@@ -16,17 +17,8 @@ export default function Header() {
             className="group flex items-center gap-3"
           >
 
-            {/* Logo */}
-            <div
-              className="flex h-11 w-11 items-center justify-center
-                         rounded-xl bg-gray-900
-                         transition-colors duration-200
-                         group-hover:bg-gray-800"
-            >
-              <span className="text-xl font-bold text-white">
-                C
-              </span>
-            </div>
+            {/* Logo UI Component */}
+            <Logo />
 
             {/* Logo Text */}
             <div className="leading-tight">
@@ -35,9 +27,7 @@ export default function Header() {
                 CMS Platform
               </h1>
 
-              <p className="mt-0.5 text-[10px] font-semibold tracking-[0.18em] text-gray-500">
-                BUILD • MANAGE • GROW
-              </p>
+
 
             </div>
 
