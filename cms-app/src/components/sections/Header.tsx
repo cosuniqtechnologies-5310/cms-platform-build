@@ -139,7 +139,10 @@ export default function Header() {
 
             {/* UI Button Component */}
             <Link href="/contact-us">
-              <Button>
+              <Button
+                variant="primary"
+                size="md"
+              >
                 Get Started
               </Button>
             </Link>
