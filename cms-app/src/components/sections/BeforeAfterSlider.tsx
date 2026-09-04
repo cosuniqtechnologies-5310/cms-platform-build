@@ -4,7 +4,7 @@ import Link from 'next/link';
 export default function BeforeAfterSlider() {
   return (
 
-    <section className="relative w-full h-[600px] bg-gray-900 overflow-hidden flex items-center justify-center">
+    <section className="relative w-full h-600px bg-gray-900 overflow-hidden flex items-center justify-center">
       <img src="https://placehold.co/1920x600/111111/555555?text=Slider+Background" className="absolute inset-0 w-full h-full object-cover opacity-50" alt="Slider BG" />
       <div className="relative z-10 text-center px-4">
         <h2 className="text-4xl md:text-6xl font-bold text-white mb-6">BeforeAfterSlider</h2>
